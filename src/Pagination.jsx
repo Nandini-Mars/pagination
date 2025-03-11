@@ -16,6 +16,7 @@ export default function Pagination() {
                 setData(employeeData);
             } catch (error) {
                 console.error("failed to fetch data");
+                alert("failed to fetch data");
             }
         };
         fetchEmployeeData();
