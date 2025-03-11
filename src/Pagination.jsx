@@ -15,7 +15,7 @@ export default function Pagination() {
                 const employeeData = await employeeResponse.json();
                 setData(employeeData);
             } catch (error) {
-                console.error("Failed to fetch data");
+                console.error("failed to fetch data");
             }
         };
         fetchEmployeeData();
